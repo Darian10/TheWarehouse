@@ -1,0 +1,208 @@
+﻿@*@model IEnumerable<TheWarehouse.Data.Auction>*@
+@using TheWarehouse.Data
+@using System;
+@using System.ComponentModel.DataAnnotations;
+@using TheWarehouse.Web.Models.Paginado;
+
+@model PaginadorGenerico<Auction>
+@{
+    ViewData["Title"] = "Index";
+}
+@inject UserManager<ApplicationUser> _UserManager
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@*CÓDIGO PARA EL FILTRO DE BÚSQUEDA*@
+<div class="text-right form-inline">
+    <form method="get" action=@Url.Action("Index", "Auctions" )>
+        <div class="form-group">
+            @Html.TextBox("buscar", null, new
+            {
+                placeholder = "ProductName",
+                @class = "form-control"
+            })
+            @Html.TextBox("cantidad1", null, new
+            {
+                placeholder = "ActualPrice_min",
+                @class = "form-control numbers"
+            })
+            @Html.TextBox("cantidad2", null, new
+            {
+                placeholder = "ActualPrice_max",
+                @class = "form-control numbers"
+            })
+        </div>
+        <button class="btn btn-default" type="submit">Buscar</button>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Winner
+            </th>
+            <th>
+                InitialPrice
+            </th>
+            <th>
+                ActualPrice
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Picture
+            </th>
+            <th>
+                User
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{int i = 0; }
+        @foreach (var item in Model.Resultado)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Winner)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InitialPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ActualPrice)
+                </td>
+                <td>
+                    @ViewBag.tiempos[i]
+                </td>
+                <td>
+                    <img src="@Url.Content("~/uploads/" + item.Picture)" alt="" runat="server" height="100" width="100" class="img-circle img-rounded" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationUser.UserName)
+                </td>
+                <td><a asp-action="Details" asp-route-id="@item.Id">View</a> </td>
+                @if (_UserManager.GetUserId(User) == item.ApplicationUserId)
+                {
+                    <td>
+
+                        <a asp-action="Edit" asp-route-id="@item.Id"> Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                }
+                @{i++;
+                }
+            </tr>
+
+
+        }
+    </tbody>
+</table>
+
+@*CÓDIGO PARA EL PAGINADOR DE REGISTROS*@
+@if (Model.Resultado.Count() > 0)
+{
+    <span>
+        <strong>@Model.TotalRegistros</strong> registros encontrados
+    </span>
+    <span>&nbsp;|&nbsp;</span>
+    <span>
+        Página <strong>@(Model.PaginaActual)</strong> de
+        <strong>@Model.TotalPaginas</strong>
+    </span>
+    <span>&nbsp;|&nbsp;</span>
+}
+else
+{
+    <span>No hay resultados para esta búsqueda</span>
+    <span>&nbsp;|&nbsp;</span>
+}
+@if (Model.PaginaActual > 1)
+{
+    @Html.ActionLink("<<", "Index", "Auctions", new { pagina = 1, buscar = Model.BusquedaActual },
+                        new { @class = "btn btn-sm btn-default" })
+    <span></span>
+    @Html.ActionLink("Anterior", "Index", "Auctions", new { pagina = Model.PaginaActual - 1, buscar = Model.BusquedaActual }, new { @class = "btn btn-sm btn-default" })
+}
+else
+{
+    @Html.ActionLink("<<", "Index", "Auctions", new
+    {
+                                                         pagina = 1,
+                                                         buscar = Model.BusquedaActual
+    },
+                                                         new { @class = "btn btn-sm btn-default disabled" })
+    <span></span>
+    @Html.ActionLink("Anterior", "Index", "Auctions", new
+    {
+        pagina = 1,
+                                                buscar = Model.BusquedaActual
+    },
+                                          new { @class = "btn btn-sm btn-default disabled" })
+}
+
+<span></span>
+
+@if (Model.PaginaActual < Model.TotalPaginas)
+{
+    @Html.ActionLink("Siguiente", "Index", "Auctions", new
+    {
+        pagina = Model.PaginaActual + 1,
+                                                 buscar = Model.BusquedaActual
+    },
+                                           new { @class = "btn btn-sm btn-default" })
+    <span></span>
+    @Html.ActionLink(">>", "Index", "Auctions", new
+    {
+        pagina = Model.TotalPaginas,
+                                          buscar = Model.BusquedaActual
+    },
+                                    new { @class = "btn btn-sm btn-default" })
+}
+else
+{
+    @Html.ActionLink("Siguiente", "Index", "Auctions", new
+    {
+        @class = "btn btn-sm btn-default disabled"
+    })
+    <span></span>
+    @Html.ActionLink(">>", "Index", "Auctions", new
+    {
+        pagina = Model.TotalPaginas,
+                                                          buscar = Model.BusquedaActual
+    },
+                                                    new { @class = "btn btn-sm btn-default disabled" })
+}
+
+@section Scripts
+{
+    <script>
+        $(function () {
+            $(".numbers").keydown(function (e) {
+
+                if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 40]) !== -1 ||
+                    (e.keyCode == 65 && e.ctrlKey === true) ||
+                    (e.keyCode >= 35 && e.keyCode <= 39)) {
+                    return;
+                }
+                if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+}
+
+

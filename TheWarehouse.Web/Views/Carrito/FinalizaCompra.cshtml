@@ -1,0 +1,14 @@
+﻿@using TheWarehouse.Data
+@{
+    ViewData["Title"] = "FinalizaCompra";
+}
+@if (ViewBag.moneycard >= 0)
+{
+    <h2>Gracias por su compra</h2>
+}
+else
+{
+    <h1>Usted no tiene suficiente dinero.Dispone de  @ViewBag.money .Vuelva a realizar su compra</h1>
+    @Html.ActionLink("Seguir Comprando", "Index", "Announcements", null, null)
+}
+

@@ -1,0 +1,232 @@
+﻿@*@model IEnumerable<TheWarehouse.Data.Announcement>*@
+@using TheWarehouse.Data;
+@using TheWarehouse.Web.Models.Paginado;
+
+@model PaginadorGenerico<Announcement>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@*CÓDIGO PARA EL FILTRO DE BÚSQUEDA*@
+<div class="text-right form-inline">
+    <form method="get" action=@Url.Action("Index", "Announcements" )>
+        <div class="form-group">
+            @Html.TextBox("buscar", null, new
+            {
+                placeholder = "ProductName",
+                @class = "form-control"
+            })
+            @Html.TextBox("cantidad1", null, new
+            {
+                placeholder = "cant_min",
+                @class = "form-control numbers"
+            })
+            @Html.TextBox("cantidad2", null, new
+            {
+                placeholder = "cant_max",
+                @class = "form-control numbers"
+            })
+        </div>
+        <button class="btn btn-default" type="submit">Buscar</button>
+    </form>
+</div>
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Cant
+            </th>
+            <th>
+                Total
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Picture
+            </th>
+            <th>
+                UserName
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Resultado)
+        {
+            <tr>
+                <td>
+                    @item.Id
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <input type="number" class="form-control numbers" min="1" size="1" value="1" max="@item.Cant" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cant)
+                </td>
+                <td>
+                    @item.VigencyDate.Day.ToString()/@item.VigencyDate.Month.ToString()/@item.VigencyDate.Year.ToString()
+                </td>
+                <td>
+                    <img src="@Url.Content("~/uploads/" + item.Foto)" alt="" runat="server" height="100" width="100" class="img-circle img-rounded" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationUser.UserName)
+                </td>
+                <td>
+                    <a href="#" class="agregar"> Agregar</a>
+                </td>
+                @if (UserManager.GetUserId(User) == item.ApplicationUserId)
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section Scripts
+{
+    <script>
+    $(function () {
+        $(".agregar").on("click", function (event) {
+            event.preventDefault();
+            var productoId = $(this).parent().parent().find("td:eq(0)").text();
+            var Announcement_Cant = $(this).parent().parent().find("td:eq(4)").text();
+            var cantidad = $(this).parent().parent().find("input").val();
+            $.ajax(
+                {
+                    url: "@Url.Action("AgregaCarrito","Carrito")",
+                    data: { id: productoId, cantidad: cantidad, Announcement_Cant: Announcement_Cant},
+                    type: "post",
+                    success: function (response) {
+                        window.location.href = "@Url.Action("AgregaCarrito","Carrito")";
+                    },
+                    error: function (err, error) {
+                        alert(error);
+                    }
+                }
+            );
+        });
+        $(".numbers").keydown(function (e) {
+
+            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 40]) !== -1 ||
+                (e.keyCode == 65 && e.ctrlKey === true) ||
+                (e.keyCode >= 35 && e.keyCode <= 39)) {
+                return;
+            }
+            if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                e.preventDefault();
+            }
+        });
+    });
+    </script>
+}
+
+@*CÓDIGO PARA EL PAGINADOR DE REGISTROS*@
+@if (Model.Resultado.Count() > 0)
+{
+    <span>
+        <strong>@Model.TotalRegistros</strong> registros encontrados
+    </span>
+    <span>&nbsp;|&nbsp;</span>
+    <span>
+        Página <strong>@(Model.PaginaActual)</strong> de
+        <strong>@Model.TotalPaginas</strong>
+    </span>
+    <span>&nbsp;|&nbsp;</span>
+}
+else
+{
+    <span>No hay resultados para esta búsqueda</span>
+    <span>&nbsp;|&nbsp;</span>
+}
+@if (Model.PaginaActual > 1)
+{
+    @Html.ActionLink("<<", "Index", "Announcements", new { pagina = 1, buscar = Model.BusquedaActual },
+                        new { @class = "btn btn-sm btn-default" })
+    <span></span>
+    @Html.ActionLink("Anterior", "Index", "Announcements", new { pagina = Model.PaginaActual - 1, buscar = Model.BusquedaActual }, new { @class = "btn btn-sm btn-default" })
+}
+else
+{
+    @Html.ActionLink("<<", "Index", "Announcements", new
+    {
+                                                         pagina = 1,
+                                                         buscar = Model.BusquedaActual
+    },
+                                                         new { @class = "btn btn-sm btn-default disabled" })
+    <span></span>
+    @Html.ActionLink("Anterior", "Index", "Announcements", new
+    {
+        pagina = 1,
+                                                buscar = Model.BusquedaActual
+    },
+                                          new { @class = "btn btn-sm btn-default disabled" })
+}
+
+<span></span>
+
+@if (Model.PaginaActual < Model.TotalPaginas)
+{
+    @Html.ActionLink("Siguiente", "Index", "Announcements", new
+    {
+        pagina = Model.PaginaActual + 1,
+                                                 buscar = Model.BusquedaActual
+    },
+                                           new { @class = "btn btn-sm btn-default" })
+    <span></span>
+    @Html.ActionLink(">>", "Index", "Announcements", new
+    {
+        pagina = Model.TotalPaginas,
+                                          buscar = Model.BusquedaActual
+    },
+                                    new { @class = "btn btn-sm btn-default" })
+}
+else
+{
+    @Html.ActionLink("Siguiente", "Index", "Announcements", new
+    {
+        @class = "btn btn-sm btn-default disabled"
+    })
+    <span></span>
+    @Html.ActionLink(">>", "Index", "Announcements", new
+    {
+        pagina = Model.TotalPaginas,
+                                                          buscar = Model.BusquedaActual
+    },
+                                                    new { @class = "btn btn-sm btn-default disabled" })
+}
+
+
+

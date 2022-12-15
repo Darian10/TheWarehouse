@@ -1,0 +1,68 @@
+﻿@model TheWarehouse.Data.Sale
+@using TheWarehouse.Data
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalles de la venta numero @Html.DisplayFor(model => model.Id)</h2>
+
+<div>
+    <h4>Sale</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SaleDay)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SaleDay)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Subtotal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Subtotal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tax)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tax)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Total)
+        </dd>
+    </dl>
+</div>
+<div>
+    <table class="table" WIDTH="50%" CELLSPACING="3" CELLPADDING="2">
+        <thead>
+            <tr>
+                <th>Announcement</th>
+                <th>Price</th>
+                <th>Cant</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.SaleList != null)
+            {
+                int i = 0;
+                foreach (var lista in Model.SaleList)
+                {
+
+                    <tr>
+                        <td> @ViewBag.listaanuncios[i].ProductName</td>
+                        <td> @String.Format("{0:C}", ViewBag.listaanuncios[i].Price) </td>
+                        <td> @lista.Cant</td>
+                        <td> @String.Format("{0:C}", lista.Total)</td>
+                    </tr>
+                    i++;
+                }
+            }
+        </tbody>
+    </table>
+    <a asp-action="Index">Back to List</a>
+</div>

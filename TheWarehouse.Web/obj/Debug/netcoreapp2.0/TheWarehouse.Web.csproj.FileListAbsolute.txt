@@ -1,0 +1,88 @@
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.deps.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.dev.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csprojAssemblyReference.cache
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfoInputs.cache
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfo.cs
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csproj.CopyComplete
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.deps.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.dev.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csprojAssemblyReference.cache
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfoInputs.cache
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfo.cs
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csproj.CopyComplete
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\bundleconfig.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.deps.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.dev.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csprojAssemblyReference.cache
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfoInputs.cache
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfo.cs
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csproj.CopyComplete
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.deps.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.runtimeconfig.dev.json
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Web.pdb
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.dll
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.dll
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.dll
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Data.pdb
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Repo.pdb
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\bin\Debug\netcoreapp2.0\TheWarehouse.Service.pdb
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfoInputs.cache
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.AssemblyInfo.cs
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.csproj.CopyComplete
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.dll
+C:\Users\chris\OneDrive\Documentos\Cibernetica\.Net\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Web\obj\Debug\netcoreapp2.0\TheWarehouse.Web.pdb

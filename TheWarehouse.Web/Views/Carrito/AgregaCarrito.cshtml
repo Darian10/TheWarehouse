@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "AgregaCarrito";
+}
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+<h1>@HttpContextAccessor.HttpContext.Session.GetString("userLoggedName")</h1>
+<h2>Mi Carrito de Compras</h2>
+<table WIDTH="76%" CELLSPACING="5" CELLPADDING="5">
+    <thead>
+        <tr>
+            <th> Id </th>
+            <th> Name </th>
+            <th> Price </th>
+            <th> Cant </th>
+            <th> TotalCant</th>
+            <th> Total </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            double total = 0;
+
+        }
+
+        @if (HttpContextAccessor.HttpContext.Session.GetObject<List<CarritoItem>>("carrito") != null)
+        {
+
+
+            foreach (var item in HttpContextAccessor.HttpContext.Session.GetObject<List<CarritoItem>>("carrito"))
+            {
+                total += (double)(item.Cantidad * item.Producto.Price);
+                <tr>
+                    <td>@item.Producto.Id</td>
+                    <td>@item.Producto.ProductName</td>
+                    <td>@String.Format("{0:C}", item.Producto.Price)</td>
+                    <td>
+                        <input type="number" class="form-control numbers" name="cantidadpuesta" size="1" min="1" value="@item.Cantidad" max="@item.Producto.Cant" />
+
+                    </td>
+                    <td>@item.Producto.Cant</td>
+                    <td>@String.Format("{0:C}", (item.Cantidad * item.Producto.Price))</td>
+                    <td>
+                        <a href="#" class="agregar"> Aceptar</a>
+                    </td>
+                    <td>@Html.ActionLink("Eliminar", "Delete", "Carrito", new { Id = item.Producto.Id }, null)</td>
+                </tr>
+            }
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="5">Total</th>
+            <th>@String.Format("{0:c}", total)</th>
+        </tr>
+    </tfoot>
+</table>
+@Html.ActionLink("Seguir Comprando", "Index", "Announcements", null, null)|@Html.ActionLink("Terminar Compra", "FinalizaCompra", "Carrito", null, null)
+@section Scripts
+{
+    <script>
+    $(function () {
+        $(".agregar").on("click", function (event) {
+            event.preventDefault();
+            
+            var productoId = $(this).parent().parent().find("td:eq(0)").text();
+            var Announcement_Cant = $(this).parent().parent().find("td:eq(4)").text();
+            var cantidad = $(this).parent().parent().find("input").val();
+            $.ajax(
+                {
+                    url: "@Url.Action("AgregaCarrito","Carrito")",
+                    data: { id: productoId, cantidad: cantidad, Announcement_Cant: Announcement_Cant },
+                    type: "post",
+                    success: function (response) {
+                        window.location.href = "@Url.Action("AgregaCarrito","Carrito")";
+                    },
+                    error: function (err, error) {
+                        alert(error);
+                    }
+                }
+            );
+        });
+        $(".numbers").keydown(function (e) {
+
+            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 40]) !== -1 ||
+                (e.keyCode == 65 && e.ctrlKey === true) ||
+                (e.keyCode >= 35 && e.keyCode <= 39)) {
+                return;
+            }
+            if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                e.preventDefault();
+            }
+        });
+    });
+    </script>
+}
+

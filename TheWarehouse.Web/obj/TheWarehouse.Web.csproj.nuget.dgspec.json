@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Web\\TheWarehouse.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj",
+        "projectName": "TheWarehouse.Data",
+        "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj",
+        "projectName": "TheWarehouse.Repo",
+        "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj": {
+                "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Service\\TheWarehouse.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Service\\TheWarehouse.Service.csproj",
+        "projectName": "TheWarehouse.Service",
+        "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Service\\TheWarehouse.Service.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj": {
+                "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj"
+              },
+              "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj": {
+                "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Web\\TheWarehouse.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Web\\TheWarehouse.Web.csproj",
+        "projectName": "TheWarehouse.Web",
+        "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Web\\TheWarehouse.Web.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj": {
+                "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Data\\TheWarehouse.Data.csproj"
+              },
+              "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj": {
+                "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Repo\\TheWarehouse.Repo.csproj"
+              },
+              "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Service\\TheWarehouse.Service.csproj": {
+                "projectPath": "C:\\Users\\chris\\OneDrive\\Documentos\\Cibernetica\\.Net\\proyecto de is con git final\\TheWarehouse2.0_1\\TheWarehouse.Service\\TheWarehouse.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

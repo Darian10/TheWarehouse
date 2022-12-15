@@ -1,0 +1,39 @@
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.deps.json
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.csprojAssemblyReference.cache
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.AssemblyInfoInputs.cache
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.AssemblyInfo.cs
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Data.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Repo.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Data.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Repo.pdb
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.csproj.CopyComplete
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.dll
+C:\Users\Dari10\source\repos\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.deps.json
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Data.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Repo.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Data.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Repo.pdb
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.csprojAssemblyReference.cache
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.AssemblyInfoInputs.cache
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.AssemblyInfo.cs
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.csproj.CopyComplete
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.dll
+D:\Cibernetica\3ero\IS\proyecto de is con git\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.deps.json
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Service.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Data.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Repo.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Data.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\bin\Debug\netstandard2.0\TheWarehouse.Repo.pdb
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.csprojAssemblyReference.cache
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.AssemblyInfoInputs.cache
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.AssemblyInfo.cs
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.csproj.CopyComplete
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.dll
+E:\Cibernetica\Carrera\3ero\mio\Is\proyecto de is con git final\TheWarehouse2.0_1\TheWarehouse.Service\obj\Debug\netstandard2.0\TheWarehouse.Service.pdb
